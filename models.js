@@ -44,7 +44,8 @@ const ShoppingList = {
     }
     this.items[updatedItem.id] = updatedItem;
     return updatedItem;
-  }
+  },
+  items:{}
 };
 
 function createShoppingList() {
